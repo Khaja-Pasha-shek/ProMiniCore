@@ -202,17 +202,5 @@ I hope you find this useful because they really are!
 
 ## Pinout
 This core uses the standard Arduino UNO pinout and will not break the compatibility of any existing code or libraries. What's different about this pinout compared to the original one is that this has three additional IO pins available. You can use digital pins 20 and 21 (PB6 and PB7) as regular IO pins if you're using the internal oscillator. If you're willing to disable the reset pin (can be enabled using [high voltage parallel programming](https://www.microchip.com/webdoc/stk500/stk500.highVoltageProgramming.html)) it can be used as a regular IO pin and is assigned to digital pin 22 (PC6).
-<b>Click to enlarge:</b>
 </br> </br>
 
-| DIP-28 package  *ATmega8/48/88/168/328*               | TQFP-32 SMD package  *ATmega8/48/88/168/328*          | TQFP-32 SMD package  *ATmega48/88/168/328PB*          |
-|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-|<img src="avr/images/pinout_DIP-28.jpg" width="280">|<img src="avr/images/pinout_TQFP-32.jpg" width="260">|<img src="avr/images/pinout_TQFP-32_PB.jpg" width="260">|
-
-
-## Minimal setup
-Here is a simple schematic showing a minimal setup using an external crystal. Skip the crystal and the two 22pF capacitors if you're using the internal oscillator. If you don't want to mess with breadboards, components and wiring; simply use your Arduino UNO! <b>Click to enlarge:</b> <br/>
-
-| DIP-28 package  *ATmega8/48/88/168/328*               | TQFP-32 SMD package  *ATmega8/48/88/168/328*          | TQFP-32 SMD package  *ATmega48/88/168/328PB*          |
-|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-|<img src="avr/images/minimal_setup_DIP-28.png" width="280">|<img src="avr/images/minimal_setup_TQFP-32.png" width="280">|<img src="avr/images/minimal_setup_TQFP-32_PB.png" width="280">|
